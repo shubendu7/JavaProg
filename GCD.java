@@ -1,5 +1,3 @@
-package Recursion;
-
 import java.util.*;
 class GCD{//Also known as HCF
     int num1;
@@ -9,22 +7,25 @@ class GCD{//Also known as HCF
     }
     void accept(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the numbers");
-        num1=sc.nextInt();
-        num2=sc.nextInt();
+        System.out.println("Enter two non-negative numbers:");
+        // Use Math.abs to ensure numbers are non-negative for GCD calculation.
+        num1=Math.abs(sc.nextInt());
+        num2=Math.abs(sc.nextInt());
+        sc.close(); // Good practice to close the scanner.
     }
-    int gcd(int x,int y){// 12 8 
-        // 12=2*2 * 3
-        //  8=2*2 * 2
-        if(x==0)//base case
-            return y;
+    // This is a more standard and robust recursive implementation of the Euclidean algorithm.
+    // gcd(a, b) = gcd(b, a % b)
+    int gcd(int a, int b){
+        if(b==0)//base case
+            return a;
         else
-            return gcd(y%x,x); 
+            return gcd(b, a % b); 
     }
     void display(){
         int t=gcd(num1,num2);
         System.out.print("The GCD of "+num1+","+num2+" is "+t);
     }
+
     public static void main(String args[]){
         GCD ob=new GCD();
         ob.accept();
