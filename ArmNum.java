@@ -1,4 +1,3 @@
-package Recursion;
 
 import java.util.*;
 class ArmNum{
@@ -37,5 +36,6 @@ class ArmNum{
         int c=cs.nextInt();
         ArmNum ob=new ArmNum(c);
         ob.isArmstrong();
+        cs.close();
     }
 }

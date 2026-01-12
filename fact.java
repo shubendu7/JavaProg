@@ -1,4 +1,4 @@
-package Recursion;
+
 
 import java.util.*;
 class fact{
@@ -24,5 +24,6 @@ class fact{
         int a=sc.nextInt();
         fact ob=new fact();
         ob.get(a);
+        sc.close();
     }
 }

@@ -1,8 +1,7 @@
 import java.util.*;
 class matrix_sort{
     public static void main(String args[]){
-        int sL=0,sR=0;
-        boolean flag=true;
+       
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the array");
         int M=sc.nextInt();
@@ -53,5 +52,6 @@ class matrix_sort{
                 System.out.println();
             }
         }
+        sc.close();
     }
 }

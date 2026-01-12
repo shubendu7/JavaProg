@@ -1,4 +1,4 @@
-package Recursion;
+
 
 import java.util.*;
 class Admission{
@@ -44,5 +44,6 @@ class Admission{
             System.out.println("The number is found");
         else
             System.out.println("The number is not found");
+        sc.close();
     }
 }

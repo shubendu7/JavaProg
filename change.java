@@ -13,6 +13,7 @@ class change{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Word");
         wrd=sc.nextLine().toUpperCase();
+        sc.close();
     }
 
     void freq(){

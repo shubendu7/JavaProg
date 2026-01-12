@@ -1,5 +1,3 @@
-package Recursion;
-
 import java.util.*;
 
 class Disarium {
@@ -19,7 +17,7 @@ class Disarium {
     }
 
     int sumofdigits(int n, int p) {
-        int sum = 0;
+        
         /*
         while (temp > 0) {
             int d = temp % 10;  // Extract the last digit

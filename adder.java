@@ -14,6 +14,7 @@ class adder{
          System.out.println("Enter the Time");
          a[0]=sc.nextInt();
          a[1]=sc.nextInt();
+         sc.close();
     }
     static adder addtime(adder X, adder Y){
         adder temp=new adder(2);
@@ -39,5 +40,6 @@ class adder{
         ob1.display();
         ob2.display();
         ob3.display();
+        
     }
 }

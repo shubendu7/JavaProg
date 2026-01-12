@@ -12,7 +12,7 @@ class capital{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the string");
         sent=sc.nextLine();
-        
+        sc.close();
     }
     public boolean iscap(String w){
         char ch=w.charAt(0);
