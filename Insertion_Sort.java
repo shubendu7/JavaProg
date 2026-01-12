@@ -29,5 +29,6 @@ class Insertion_Sort{
             System.out.print(arr[i]+" ");
           
         }
+        sc.close();
     }
 }

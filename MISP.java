@@ -13,6 +13,7 @@ class MISP{
             }
         }
         System.out.println("The new String "+newstr);
+        sc.close();
         
     }
 }

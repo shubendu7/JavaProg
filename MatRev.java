@@ -9,8 +9,7 @@ class MatRev{
         arr= new int[mm][nn];
     }
     
-    void fillarray(){
-        Scanner sc=new Scanner(System.in);
+    void fillarray(Scanner sc){
         System.out.println("Enter the numbers");
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
@@ -59,7 +58,8 @@ class MatRev{
         int a=sc.nextInt();
         int b=sc.nextInt();
         MatRev ob=new MatRev(a,b);
-        ob.fillarray();
+        ob.fillarray(sc);
         ob.revMat(ob);
+        sc.close();
     }
 }

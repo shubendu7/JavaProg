@@ -15,5 +15,6 @@ class Frequency{
             if(c!=0)
             System.out.println("Character "+ch+" is of frequency "+c);
         }
+        sc.close();
     }
 }

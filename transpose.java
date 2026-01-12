@@ -16,6 +16,7 @@ class transpose{
                 arr[i][j]=sc.nextInt();
             }
         }
+        sc.close();
     }
     
     static transpose trans(transpose t){
@@ -48,6 +49,7 @@ class transpose{
         System.out.println("Display original");
         ob1.display();
         System.out.println("Display transpose");
-        ob2.display();        
+        ob2.display();     
+        sc.close();   
     }
 }

@@ -10,6 +10,7 @@ class Anagram {
         str1 = sc.nextLine().toLowerCase(); // Convert to lowercase
         System.out.print("Enter second string: ");
         str2 = sc.nextLine().toLowerCase(); // Convert to lowercase
+        sc.close();
     }
 
     // Method to check if two strings are anagrams

@@ -25,5 +25,6 @@ class Bubble_Sort{
         for(int i=0;i<10;i++){
             System.out.println(arr[i]+" ");
         }
+        sc.close(); // Closing the scanner to prevent resource leak
     }
 }

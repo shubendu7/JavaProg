@@ -9,6 +9,7 @@ class Pronic{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number to check");
         num=sc.nextInt();
+        sc.close();
     }
     
     boolean ispronic(int v){

@@ -15,6 +15,7 @@ class DeciHex{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number ");
         num = sc.nextInt();
+        sc.close();
     }
 
     String convert(int n){

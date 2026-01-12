@@ -8,8 +8,7 @@ class ArrObj{
         A=new int [size];
     }
     
-    void fillarray(){
-        Scanner sc=new Scanner(System.in);
+    void fillarray(Scanner sc){
         System.out.println("Enter the numbers in the array");
         for(int i=0;i<size;i++){
             A[i]=sc.nextInt();
@@ -56,7 +55,8 @@ class ArrObj{
         System.out.println("Enter the size of the array");
         int ss=sc.nextInt();
         ArrObj ob=new ArrObj(ss);
-        ob.fillarray();
+        ob.fillarray(sc);
         ob.findreverse(ob);
+        sc.close();
     }
 }

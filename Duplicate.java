@@ -13,6 +13,7 @@ class  duplicate{
             ch=str.charAt(i);
         }
         System.out.println("The Resulted String\n"+newStr);
+        sc.close();
         
     }
 }

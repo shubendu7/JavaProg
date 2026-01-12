@@ -13,10 +13,11 @@ class StringOp{
         str=sc.nextLine();
         System.out.println("Enter the Masking word");
         msk=sc.nextLine();
+        sc.close();
     }
     void form(){
         int l1=str.length();//communication
-        int l2=msk.length();//mont
+       
         for(int i=0;i<l1;i++){
             ch1=str.charAt(i);
             if(msk.indexOf(ch1)==-1){//mont.indexOf(o);

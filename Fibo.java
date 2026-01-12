@@ -12,6 +12,7 @@ class Fibo{
         System.out.println("Enter the start and the end");
         start=sc.nextInt();
         end=sc.nextInt();
+        sc.close();
     }
     int fibo_series(int n)
     {

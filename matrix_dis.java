@@ -48,6 +48,7 @@ class matrix_dis{
             }
             System.out.println("The sum of left diagonal = "+sL+"\n"+"The sum of right diagonal = "+sR);
         }
+        sc.close();
         else{
             System.exit(0);
         }

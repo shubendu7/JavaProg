@@ -18,6 +18,7 @@ class LCM{
             large=n2;
             sm=n1;
         }
+        sc.close();
     }
     int getLCM(){
         if(large!=sm){

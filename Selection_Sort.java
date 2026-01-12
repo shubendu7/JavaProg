@@ -1,4 +1,4 @@
-                package Array;
+                
 
 import java.util.*;
 class Selection_Sort{//Ascending Order
@@ -27,5 +27,6 @@ class Selection_Sort{//Ascending Order
         for(int s=0;s<10;s++){
             System.out.print(arr[s]+" ");
         }
+        sc.close();
     }
 }

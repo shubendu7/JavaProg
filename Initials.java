@@ -20,5 +20,6 @@ class Initials{
             }
         }
         System.out.println("" + newstr);
+        sc.close();
     }
 }

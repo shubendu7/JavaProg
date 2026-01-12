@@ -12,6 +12,7 @@ class Palin{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number to check");
         num=sc.nextInt();
+        sc.close();
     }
 
     int reverse(int y){

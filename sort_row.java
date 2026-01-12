@@ -1,14 +1,13 @@
 import java.util.*;
 class sort_row{
     public static void main(String args[]){
-        int sL=0,sR=0;
-        boolean flag=true;
+        
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the array");
         int M=sc.nextInt();
         int arr[][]=new int [M][M];
-        int s=(M-2)*(M-2);
-        int arr1[]=new int [s];
+        
+        
         if(M>2 && M<10){
             //Initializing
             System.out.println("Enter the elements of the array at");
@@ -39,5 +38,7 @@ class sort_row{
                 System.out.println();
             }
         }
+
+        sc.close();
     }
 }

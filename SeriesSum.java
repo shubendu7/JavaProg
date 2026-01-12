@@ -1,4 +1,4 @@
-package Recursion;
+
 
 import java.util.*;
 class SeriesSum{
@@ -46,5 +46,6 @@ class SeriesSum{
         SeriesSum ob=new SeriesSum(a,b);
         ob.calculate();
         ob.Display();
+        sc.close();
     }
 }
