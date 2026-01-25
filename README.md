@@ -1,4 +1,4 @@
-# JavaProg 🧠
+# JavaProg 
 
 ## About the Project
 **JavaProg** is a collection of **practical Java programs** designed to help learners strengthen their understanding of key concepts in Java programming. 
